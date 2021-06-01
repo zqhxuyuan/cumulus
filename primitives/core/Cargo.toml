@@ -6,21 +6,23 @@ edition = "2018"
 
 [dependencies]
 # Substrate dependencies
-sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "rococo-v1" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "rococo-v1" }
-sp-trie = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "rococo-v1" }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "rococo-v1" }
+
+sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
+sp-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
+sp-trie = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
+frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
 
 # Polkadot dependencies
-polkadot-parachain = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "rococo-v1" }
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "rococo-v1" }
-polkadot-core-primitives = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "rococo-v1" }
-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "rococo-v1" }
+polkadot-parachain = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.3" }
+polkadot-primitives = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.3" }
+polkadot-core-primitives = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.3" }
+xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.3" }
+
 
 # Other dependencies
 impl-trait-for-tuples = "0.2.1"
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = [ "derive" ] }
-
 
 [features]
 default = [ "std" ]
@@ -32,5 +34,6 @@ std = [
 	"polkadot-core-primitives/std",
 	"sp-runtime/std",
 	"sp-trie/std",
+	"sp-api/std",
 	"frame-support/std",
 ]
