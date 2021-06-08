@@ -44,11 +44,11 @@ cumulus-test-relay-sproof-builder = { path = "../../test/relay-sproof-builder" }
 hex-literal = "0.2.1"
 lazy_static = "1.4"
 sc-client-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-executor-common = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.4" }
+sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.4" }
+sc-executor = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.4" }
+sc-executor-common = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.4" }
+sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.4" }
 cumulus-test-client = { path = "../../test/client" }
 env_logger = "0.7.1"
 
