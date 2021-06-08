@@ -1997,7 +1997,7 @@ dependencies = [
  "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-transaction-pool 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-version 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.4)",
+ "substrate-wasm-builder 3.0.0",
  "xcm 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-builder 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-executor 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
@@ -2033,7 +2033,7 @@ dependencies = [
  "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-transaction-pool 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-version 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.4)",
+ "substrate-wasm-builder 3.0.0",
  "xcm 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-builder 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-executor 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
@@ -2115,7 +2115,7 @@ dependencies = [
  "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-transaction-pool 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-version 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.4)",
+ "substrate-wasm-builder 3.0.0",
 ]
 
 [[package]]
@@ -2146,7 +2146,7 @@ dependencies = [
  "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-transaction-pool 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-version 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.4)",
+ "substrate-wasm-builder 3.0.0",
 ]
 
 [[package]]
@@ -14419,7 +14419,7 @@ dependencies = [
  "sp-transaction-pool 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-version 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "statemint-common",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.4)",
+ "substrate-wasm-builder 3.0.0",
  "xcm 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-builder 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-executor 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
@@ -14445,7 +14445,7 @@ dependencies = [
  "sp-io 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-runtime 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
+ "substrate-wasm-builder 3.0.0",
 ]
 
 [[package]]
@@ -14505,7 +14505,7 @@ dependencies = [
  "sp-transaction-pool 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-version 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "statemint-common",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.4)",
+ "substrate-wasm-builder 3.0.0",
  "xcm 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-builder 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-executor 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
@@ -16527,7 +16527,7 @@ dependencies = [
  "sp-transaction-pool 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "sp-version 3.0.0 (git+https://github.com/paritytech/substrate?branch=master)",
  "statemint-common",
- "substrate-wasm-builder 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.4)",
+ "substrate-wasm-builder 3.0.0",
  "xcm 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-builder 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",
  "xcm-executor 0.9.4 (git+https://github.com/paritytech/polkadot?branch=master)",

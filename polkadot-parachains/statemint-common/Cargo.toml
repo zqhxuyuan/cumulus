@@ -37,7 +37,7 @@ sp-io = { git = 'https://github.com/paritytech/substrate', branch = "master", de
 pallet-authorship = { git = 'https://github.com/paritytech/substrate', branch = "master", default-features = false }
 
 [build-dependencies]
-substrate-wasm-builder = { git = 'https://github.com/paritytech/substrate', branch = "master" }
+substrate-wasm-builder = "3.0.0"
 
 [features]
 default = ["std"]
