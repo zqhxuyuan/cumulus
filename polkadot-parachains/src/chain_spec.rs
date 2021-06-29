@@ -73,6 +73,8 @@ pub fn get_chain_spec(id: ParaId) -> ChainSpec {
 				vec![
 					get_from_seed::<AuraId>("Alice"),
 					get_from_seed::<AuraId>("Bob"),
+					get_from_seed::<AuraId>("Charlie"),
+					get_from_seed::<AuraId>("Dave"),
 				],
 				vec![
 					get_account_id_from_seed::<sr25519::Public>("Alice"),
