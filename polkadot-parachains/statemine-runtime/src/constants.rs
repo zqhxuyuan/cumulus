@@ -26,7 +26,8 @@ pub mod currency {
 
 	pub const fn deposit(items: u32, bytes: u32) -> Balance {
 		// map to 1/10 of what the kusama relay chain charges (v9020)
-		(items as Balance * 2_000 * CENTS + (bytes as Balance) * 100 * MILLICENTS) / 10
+		// (items as Balance * 2_000 * CENTS + (bytes as Balance) * 100 * MILLICENTS) / 10
+		items as Balance * 15 * CENTS + (bytes as Balance) * 6 * CENTS
 	}
 }
 

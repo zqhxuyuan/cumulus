@@ -75,6 +75,8 @@ pub fn get_chain_spec(id: ParaId) -> ChainSpec {
 					get_from_seed::<AuraId>("Bob"),
 					get_from_seed::<AuraId>("Charlie"),
 					get_from_seed::<AuraId>("Dave"),
+					get_from_seed::<AuraId>("Eve"),
+					get_from_seed::<AuraId>("Ferdie"),
 				],
 				vec![
 					get_account_id_from_seed::<sr25519::Public>("Alice"),
@@ -192,6 +194,7 @@ fn shell_testnet_genesis(parachain_id: ParaId) -> shell_runtime::GenesisConfig {
 				.to_vec(),
 			changes_trie_config: Default::default(),
 		},
+		balances: Default::default(),
 		parachain_info: shell_runtime::ParachainInfoConfig { parachain_id },
 		parachain_system: Default::default(),
 	}

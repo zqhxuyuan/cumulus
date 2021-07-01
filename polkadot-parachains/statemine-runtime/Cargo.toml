@@ -51,6 +51,10 @@ pallet-utility = { git = "https://github.com/paritytech/substrate", default-feat
 node-primitives = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.6" }
 max-encoded-len = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.6" }
 
+pallet-contracts = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "polkadot-v0.9.6" }
+pallet-contracts-primitives = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "polkadot-v0.9.6" }
+pallet-contracts-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "polkadot-v0.9.6" }
+
 # Cumulus dependencies
 cumulus-pallet-aura-ext = { path = "../../pallets/aura-ext", default-features = false }
 cumulus-pallet-parachain-system = { path = "../../pallets/parachain-system", default-features = false }
@@ -151,4 +155,7 @@ std = [
 	"sp-consensus-aura/std",
 	"node-primitives/std",
 	"statemint-common/std",
+	"pallet-contracts/std",
+	"pallet-contracts-primitives/std",
+	"pallet-contracts-rpc-runtime-api/std",
 ]
