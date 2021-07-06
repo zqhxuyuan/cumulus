@@ -35,12 +35,12 @@ pub fn create_full<C, P>(
     C: Send + Sync + 'static,
     C::Api: substrate_frame_rpc_system::AccountNonceApi<Block, AccountId, Index>,
     C::Api: pallet_contracts_rpc::ContractsRuntimeApi<Block, AccountId, Balance, BlockNumber, Hash>,
-    // C::Api: pallet_transaction_payment_rpc::TransactionPaymentRuntimeApi<Block, Balance>,
+    C::Api: pallet_transaction_payment_rpc::TransactionPaymentRuntimeApi<Block, Balance>,
     C::Api: BlockBuilder<Block>,
     P: TransactionPool + 'static,
 {
     use substrate_frame_rpc_system::{FullSystem, SystemApi};
-    // use pallet_transaction_payment_rpc::{TransactionPayment, TransactionPaymentApi};
+    use pallet_transaction_payment_rpc::{TransactionPayment, TransactionPaymentApi};
 
     let mut io = jsonrpc_core::IoHandler::default();
     let FullDeps {
@@ -53,9 +53,9 @@ pub fn create_full<C, P>(
         SystemApi::to_delegate(FullSystem::new(client.clone(), pool, deny_unsafe))
     );
 
-    // io.extend_with(
-    //     TransactionPaymentApi::to_delegate(TransactionPayment::new(client.clone()))
-    // );
+    io.extend_with(
+        TransactionPaymentApi::to_delegate(TransactionPayment::new(client.clone()))
+    );
     io.extend_with(
         ContractsApi::to_delegate(Contracts::new(client.clone()))
     );
