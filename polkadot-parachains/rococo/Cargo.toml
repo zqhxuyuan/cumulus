@@ -48,11 +48,11 @@ cumulus-pallet-xcm = { path = "../../pallets/xcm", default-features = false }
 cumulus-ping = { path = "../pallets/ping", default-features = false }
 
 # Polkadot dependencies
-polkadot-parachain = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.10" }
-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.10" }
-xcm-builder = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.10" }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.10" }
-pallet-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.10" }
+polkadot-parachain = { git = "https://github.com/zqhxuyuan/polkadot", default-features = false, branch = "tests_xcm" }
+xcm = { git = "https://github.com/zqhxuyuan/polkadot", default-features = false, branch = "tests_xcm" }
+xcm-builder = { git = "https://github.com/zqhxuyuan/polkadot", default-features = false, branch = "tests_xcm" }
+xcm-executor = { git = "https://github.com/zqhxuyuan/polkadot", default-features = false, branch = "tests_xcm" }
+pallet-xcm = { git = "https://github.com/zqhxuyuan/polkadot", default-features = false, branch = "tests_xcm" }
 
 [dev-dependencies]
 hex-literal = "0.3.1"

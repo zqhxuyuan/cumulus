@@ -19,7 +19,7 @@ sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "polk
 substrate-prometheus-endpoint = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.10" }
 
 # Polkadot dependencies
-polkadot-client = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.10" }
+polkadot-client = { git = "https://github.com/zqhxuyuan/polkadot", branch = "tests_xcm" }
 
 # Cumulus dependencies
 cumulus-client-consensus-common = { path = "../common" }
